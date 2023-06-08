@@ -1,0 +1,41 @@
+name: file_picker
+description: This librarie aims at providing you a simple way to get the user location without thinking about permission.
+homepage: https://docs.page/Lyokone/flutterlocation
+repository: https://github.com/Lyokone/flutterlocation
+version: 5.0.0-dev.9
+
+environment:
+  sdk: ">=3.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  file_picker_platform_interface:
+    git:
+      url:  https://github.com/Eu-Arthur/flutter_file_picker_platform_interface.git
+  file_picker_android:
+    git:
+      url:  https://github.com/Eu-Arthur/flutter_file_picker_android.git
+  file_picker_ios:
+    git:
+      url:  https://github.com/Eu-Arthur/flutter_file_picker_ios.git
+  file_picker_linux:
+    git:
+      url:  https://github.com/Eu-Arthur/flutter_file_picker_linux.git
+  file_picker_macos:
+    git:
+      url:  https://github.com/Eu-Arthur/flutter_file_picker_macos.git
+  file_picker_web:
+    git:
+      url:  https://github.com/Eu-Arthur/flutter_file_picker_web.git
+  file_picker_windows:
+    git:
+      url:  https://github.com/Eu-Arthur/flutter_file_picker_windows.git
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.4
+  very_good_analysis: ^5.0.0+1
