@@ -10,9 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   file_picker:
-    git:
-      url: https://github.com/Eu-Arthur/flutter_file_picker.git
-  js: ^0.6.7
+    path: ../
 dev_dependencies:
   flutter_test:
     sdk: flutter

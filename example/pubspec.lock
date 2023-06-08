@@ -41,6 +41,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.17.2"
+  cupertino_icons:
+    dependency: transitive
+    description:
+      name: cupertino_icons
+      sha256: e35129dc44c9118cee2a5603506d823bab99c68393879edb440e0090d07586be
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.5"
   fake_async:
     dependency: transitive
     description:
@@ -49,43 +57,88 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.1"
-  ffi:
-    dependency: transitive
-    description:
-      name: ffi
-      sha256: ed5337a5660c506388a9f012be0288fb38b49020ce2b45fe1f8b8323fe429f99
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.2"
   file_picker:
     dependency: "direct main"
     description:
+      path: ".."
+      relative: true
+    source: path
+    version: "5.0.0-dev.9"
+  file_picker_android:
+    dependency: transitive
+    description:
       path: "."
       ref: HEAD
-      resolved-ref: bf89382d5a958dddb0d1ed49d2a84762502cb050
-      url: "https://github.com/Eu-Arthur/flutter_file_picker.git"
+      resolved-ref: fbca57ede53c117c057cccd903ac68609af40257
+      url: "https://github.com/Eu-Arthur/flutter_file_picker_android.git"
     source: git
-    version: "6.0.0+1"
+    version: "5.0.0-dev.4"
+  file_picker_ios:
+    dependency: transitive
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "9d87abb4af4cbc83a3aa494f9b9999eaefaca9bc"
+      url: "https://github.com/Eu-Arthur/flutter_file_picker_ios.git"
+    source: git
+    version: "5.0.0-dev.4"
+  file_picker_linux:
+    dependency: transitive
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: e00abcbc42f260bb7b6f4ddfa10aa9b1f2444416
+      url: "https://github.com/Eu-Arthur/flutter_file_picker_linux.git"
+    source: git
+    version: "5.0.0-dev.0"
+  file_picker_macos:
+    dependency: transitive
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: bc11d3d086729f576feb91645e3ba3640aff753b
+      url: "https://github.com/Eu-Arthur/flutter_file_picker_macos.git"
+    source: git
+    version: "5.0.0-dev.3"
+  file_picker_platform_interface:
+    dependency: transitive
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: d673a4c48fdc9a43a675c1ac06bcba3d1b7adae1
+      url: "https://github.com/Eu-Arthur/flutter_file_picker_platform_interface.git"
+    source: git
+    version: "5.0.0-dev.3"
+  file_picker_web:
+    dependency: transitive
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "757f03b9a867d36a0c030feffb1e3a2c7ab5a5cd"
+      url: "https://github.com/Eu-Arthur/flutter_file_picker_web.git"
+    source: git
+    version: "6.0.0-dev.1"
+  file_picker_windows:
+    dependency: transitive
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "2c785fd4ce5742b403acb7e8de2da49a7f002040"
+      url: "https://github.com/Eu-Arthur/flutter_file_picker_windows.git"
+    source: git
+    version: "5.0.0-dev.0"
   flutter:
     dependency: "direct main"
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_plugin_android_lifecycle:
-    dependency: transitive
-    description:
-      name: flutter_plugin_android_lifecycle
-      sha256: "950e77c2bbe1692bc0874fc7fb491b96a4dc340457f4ea1641443d0a6c1ea360"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.15"
   flutter_test:
     dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
   js:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: js
       sha256: f2c445dce49627136094980615a031419f7f3eb393237e4ecd97ac15dea343f3
@@ -193,14 +246,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
-  win32:
-    dependency: transitive
-    description:
-      name: win32
-      sha256: "7dacfda1edcca378031db9905ad7d7bd56b29fd1a90b0908b71a52a12c41e36b"
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.0.3"
 sdks:
   dart: ">=3.1.0-163.0.dev <4.0.0"
-  flutter: ">=3.10.0"
+  flutter: ">=3.1.0"
